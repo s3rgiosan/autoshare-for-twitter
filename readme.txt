@@ -109,7 +109,7 @@ To avoid encountering this error in the future and to have higher usage limits, 
 
 == Changelog ==
 
-= 2.2.1 - 2024-07-01 =
+= 2.2.1 - 2024-07-08 =
 * **Changed:** Bump WordPress "tested up to" version 6.5 (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter), [@sudip-md](https://github.com/sudip-md), [@jeffpaul](https://github.com/jeffpaul) via [#319](https://github.com/10up/autoshare-for-twitter/pull/319)).
 * **Fixed:** Ampersands no longer converted to HTML entities when adding query parameters to the post URL with the `autoshare_for_twitter_post_url` filter (props [@justinmaurerdotdev](https://github.com/justinmaurerdotdev), [@iamdharmesh](https://github.com/iamdharmesh) via [#324](https://github.com/10up/autoshare-for-twitter/pull/324)).
 * **Security:** Bump `express` from 4.18.2 to 4.19.2 (props [@dependabot](https://github.com/apps/dependabot), [@iamdharmesh](https://github.com/iamdharmesh) via [#321](https://github.com/10up/autoshare-for-twitter/pull/321)).
