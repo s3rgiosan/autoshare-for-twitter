@@ -1,23 +1,21 @@
 # Autopost for X (formerly Autoshare for Twitter)
 
-> Automatically shares the post title or custom message and a link to the post to X/Twitter.
+![Autopost for X](https://github.com/10up/autoshare-for-twitter/blob/develop/.wordpress-org/banner-1544x500.png)
 
-[![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level) [![Release Version](https://img.shields.io/github/release/10up/autoshare-for-twitter.svg)](https://github.com/10up/autoshare-for-twitter/releases/latest) ![WordPress tested up to version](https://img.shields.io/wordpress/plugin/tested/autoshare-for-twitter?label=WordPress) [![GPLv2 License](https://img.shields.io/github/license/10up/autoshare-for-twitter.svg)](https://github.com/10up/autoshare-for-twitter/blob/develop/LICENSE.md)
-[![ESLint](https://github.com/10up/autoshare-for-twitter/actions/workflows/eslint.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/eslint.yml)
-[![PHPCompatibility](https://github.com/10up/autoshare-for-twitter/actions/workflows/php-compatibility.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/php-compatibility.yml)
-[![PHPCS](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpcs.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpcs.yml)
-[![PHPUnit](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpunit.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpunit.yml)
-[![E2E Tests](https://github.com/10up/autoshare-for-twitter/actions/workflows/cypress.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/cypress.yml)
+[![Support Level](https://img.shields.io/badge/support-stable-blue.svg)](#support-level) [![Release Version](https://img.shields.io/github/release/10up/autoshare-for-twitter.svg)](https://github.com/10up/autoshare-for-twitter/releases/latest) ![WordPress tested up to version](https://img.shields.io/wordpress/plugin/tested/autoshare-for-twitter?label=WordPress) [![GPLv2 License](https://img.shields.io/github/license/10up/autoshare-for-twitter.svg)](https://github.com/10up/autoshare-for-twitter/blob/develop/LICENSE.md) [![Dependency Review](https://github.com/10up/autoshare-for-twitter/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/dependency-review.yml)
+[![E2E Tests](https://github.com/10up/autoshare-for-twitter/actions/workflows/cypress.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/cypress.yml) [![PHPUnit](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpunit.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpunit.yml) [![PHPCompatibility](https://github.com/10up/autoshare-for-twitter/actions/workflows/php-compatibility.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/php-compatibility.yml) [![PHPCS](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpcs.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/phpcs.yml) [![ESLint](https://github.com/10up/autoshare-for-twitter/actions/workflows/eslint.yml/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/eslint.yml) [![CodeQL](https://github.com/10up/autoshare-for-twitter/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/10up/autoshare-for-twitter/actions/workflows/github-code-scanning/codeql)
+
+> Automatically shares the post title or custom message and a link to the post to X/Twitter.
 
 ## Overview
 
 Autopost for X (formerly Autoshare for Twitter) automatically shares your posts to X/Twitter as soon as they’re published.  Once you hit the Publish button, the plugin sends your post’s title, featured image, and link to X/Twitter, along with a custom message.
 
-| Create post screen with Autopost for X/Twitter options | Published post screen with Autopost for X/Twitter options. |
-| -------------- | ---------------- |
-| [![Create post screen with Autopost for X/Twitter options](.wordpress-org/screenshot-1.png)](.wordpress-org/screenshot-1.png) | [![Published post screen with Autopost for X/Twitter options.](.wordpress-org/screenshot-2.png)](.wordpress-org/screenshot-2.png) |
+[![Create post screen with Autopost for X/Twitter options](.wordpress-org/screenshot-1.png)](.wordpress-org/screenshot-1.png)
 
 Unlike a myriad of other social media, multitool solutions, Autopost for X is built solely for X/Twitter.  It focuses on doing one thing and does it well, with the code and interface craftsmanship we apply to every project.
+
+[![Published post screen with Autopost for X/Twitter options.](.wordpress-org/screenshot-2.png)](.wordpress-org/screenshot-2.png)
 
 With Autopost for X, developers can further customize nearly everything about the posts, including the image, author, and link, using an extensive set of hooks built into the code. Among its other features, the WordPress plugin:
 
@@ -27,11 +25,11 @@ With Autopost for X, developers can further customize nearly everything about th
 * Counts characters to keep you under the X/Twitter limit.
 * Adds a link to the post to X/Twitter in the block editor sidebar.
 
-| Autopost For X/Twitter block editor sidebar panel | Autopost for X/Twitter Settings, found under `Settings` > `Autopost for X`. | 
-| --------------- | --------------- |
-|[![Autopost For X/Twitter block editor sidebar panel](.wordpress-org/screenshot-3.gif)](.wordpress-org/screenshot-3.gif) | [![Autopost for X/Twitter Settings, found under `Settings` > `Autopost for X/Twitter`.](.wordpress-org/screenshot-4.png)](.wordpress-org/screenshot-4.png)|
+[![Autopost For X/Twitter block editor sidebar panel](.wordpress-org/screenshot-3.gif)](.wordpress-org/screenshot-3.gif)
 
 **Disclaimer:** _TWITTER, TWEET, RETWEET and the Twitter logo are trademarks of Twitter, Inc. or its affiliates._
+
+[![Autopost for X/Twitter Settings, found under `Settings` > `Autopost for X/Twitter`.](.wordpress-org/screenshot-4.png)](.wordpress-org/screenshot-4.png)
 
 ## Requirements
 
