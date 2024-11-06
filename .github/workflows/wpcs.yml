@@ -1,0 +1,31 @@
+name: WPCS check
+
+on: pull_request
+
+jobs:
+  phpcs:
+      name: WPCS
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: WPCS check
+          uses: 10up/wpcs-action@fix/35-upgrade-wordpress-coding-standards-to-3.1
+  vipcs:
+      name: VIPCS
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: VIPCS check
+          uses: 10up/wpcs-action@fix/35-upgrade-wordpress-coding-standards-to-3.1
+          with:
+            standard: 'WordPress-VIP-Go'
+  tenupcs:
+      name: 10upCS
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - name: 10upCS check
+          uses: 10up/wpcs-action@fix/35-upgrade-wordpress-coding-standards-to-3.1
+          with:
+            standard: 10up-Default
+            enable_warnings: true
