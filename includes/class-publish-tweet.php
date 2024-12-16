@@ -96,9 +96,10 @@ class Publish_Tweet {
 		 * @param array|object The response from the Twitter endpoint.
 		 * @param array        Data to send to the Twitter endpoint.
 		 * @param \WP_Post     The post associated with the tweet.
+		 * @param int|null     The Twitter account ID.
 		 * @param array        The headers from the last request.
 		 */
-		do_action( 'autoshare_for_twitter_after_status_update', $response, $update_data, $post, $last_headers );
+		do_action( 'autoshare_for_twitter_after_status_update', $response, $update_data, $post, $account_id, $last_headers );
 
 		return $response;
 	}
